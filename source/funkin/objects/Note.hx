@@ -624,9 +624,7 @@ class Note extends FlxSprite
 
 		var thingtouseidkfuckyou:Float = 1;
 		if(playField != null) {
-			if(playField.baseAlpha != null) {
-				thingtouseidkfuckyou = playField.baseAlpha;
-			}
+			thingtouseidkfuckyou = playField.baseAlpha;
 		}
 
 		colorSwap.daAlpha = (alphaMod * alphaMod2) * thingtouseidkfuckyou;
