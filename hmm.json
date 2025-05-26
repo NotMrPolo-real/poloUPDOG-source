@@ -50,16 +50,6 @@
             "url": "https://github.com/NotMrPolo-real/SScript-pol"
         },
         {
-            "name": "hxcpp-debug-server",
-            "type": "haxelib",
-            "version": null
-        },
-        {
-            "name": "tjson",
-            "type": "haxelib",
-            "version": null
-        },
-        {
             "name": "hxdiscord_rpc",
             "type": "haxelib",
             "version": "1.2.4"
@@ -84,6 +74,16 @@
             "dir": null,
             "ref": "master",
             "url": "https://github.com/Aidan63/linc_discord-rpc"
+        },
+        {
+            "name": "hxcpp-debug-server",
+            "type": "haxelib",
+            "version": null
+        },
+        {
+            "name": "tjson",
+            "type": "haxelib",
+            "version": null
         }
     ]
 }
