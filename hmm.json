@@ -49,11 +49,6 @@
             "ref": "main",
             "url": "https://github.com/NotMrPolo-real/SScript-pol"
         },
-        /*{
-            "name": "hxdiscord_rpc",
-            "type": "haxelib",
-            "version": "1.2.4"
-        },*/
         {
             "name": "flxanimate",
             "type": "git",
