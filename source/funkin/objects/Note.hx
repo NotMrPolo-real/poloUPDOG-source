@@ -622,8 +622,8 @@ class Note extends FlxSprite
 			}
 		}
 
-		//var thingtouseidkfuckyou:Float = playField != null ? playField.baseAlpha : 1;
-		colorSwap.daAlpha = (alphaMod * alphaMod2) * 1; // * playField.baseAlpha
+		var thingtouseidkfuckyou:Float = playField != null ? playField.baseAlpha : 1;
+		colorSwap.daAlpha = (alphaMod * alphaMod2) * thingtouseidkfuckyou;
 
 		var actualHitbox:Float = hitbox * earlyHitMult;
 		/*if(mustPress){
