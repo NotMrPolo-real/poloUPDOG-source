@@ -72,6 +72,16 @@
             "name": "tjson",
             "type": "haxelib",
             "version": null
+        },
+        {
+            "name": "hscript",
+            "type": "haxelib",
+            "version": null
+        },
+        {
+            "name": "hscript-iris",
+            "type": "haxelib",
+            "version": null
         }
     ]
 }
