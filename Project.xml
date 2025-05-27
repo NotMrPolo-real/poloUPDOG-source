@@ -96,6 +96,11 @@
 	<haxelib name="discord_rpc" if="DISCORD_ALLOWED"/>
 	<haxelib name="hxvlc" if="VIDEOS_ALLOWED"/>
 
+	<!-- ______________________________ macros _____________________________ -->
+
+	<haxeflag name="--macro" value="addMetadata('@:build(funkin.utils.MacroUtil.buildFlxSprite())', 'flixel.FlxSprite')" />
+	<haxeflag name="--macro" value="addMetadata('@:build(funkin.utils.MacroUtil.buildFlxBasic())', 'flixel.FlxBasic')" />
+
 	<!-- ______________________________ Haxedefines _____________________________ -->
 
 	<haxedef name="CRASH_HANDLER" if="desktop release"/>
