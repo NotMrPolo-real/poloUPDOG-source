@@ -1,6 +1,8 @@
 import flixel.ui.FlxBar;
 import flixel.text.FlxText;
 import flixel.addons.transition.FlxTransitionableState;
+import StringTools;
+using StringTools;
 
 var singAnimations = ['singLEFT', 'singDOWN', 'singUP', 'singRIGHT'];
 var redCutscene:BGSprite;

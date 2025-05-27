@@ -1,4 +1,6 @@
 import flixel.addons.transition.FlxTransitionableState;
+import StringTools;
+using StringTools;
 
 var singAnimations = ['singLEFT', 'singDOWN', 'singUP', 'singRIGHT'];
 var bfStar:Character;

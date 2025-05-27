@@ -103,6 +103,7 @@
 
 	<haxeflag name="--macro" value="include('funkin')" />
 	<haxeflag name="--macro" value="include('flixel.addons.effects')" />
+	<haxeflag name="--macro" value="include('StringTools')" />
 
 	<!-- ______________________________ Haxedefines _____________________________ -->
 
