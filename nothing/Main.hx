@@ -60,10 +60,6 @@ class Main extends Sprite
 	static function onResize(w:Int, h:Int)
 	{
 		final scale:Float = Math.max(1, Math.min(w / FlxG.width, h / FlxG.height));
-		if (fpsVar != null)
-		{
-			fpsVar.scaleX = fpsVar.scaleY = scale;
-		}
 
 		if (FlxG.cameras != null)
 			for (i in FlxG.cameras.list)
