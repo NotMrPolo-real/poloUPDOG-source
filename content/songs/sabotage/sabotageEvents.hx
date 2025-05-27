@@ -223,7 +223,7 @@ function onBeatHit()
 	updateDetectiveIcon(FlxG.elapsed);
 	
 	var anim = saboDetective.animation.curAnim.name;
-	if (!StringTools.contains(anim, 'sing') && game.curBeat % 2 == 0) saboDetective.dance();
+	if (anim.indexOf("sing") <= -1 && game.curBeat % 2 == 0) saboDetective.dance();
 	
 	/*
 	switch (curBeat) {

@@ -1,6 +1,4 @@
 import flixel.addons.transition.FlxTransitionableState;
-import StringTools;
-using StringTools;
 
 var singAnimations = ['singLEFT', 'singDOWN', 'singUP', 'singRIGHT'];
 var bfStar:Character;
@@ -81,11 +79,11 @@ function onCreate()
 
 function onBeatHit()
 {
-	var anim = bfStar.animation.curAnim.name;
-	if (!StringTools.contains(anim, 'sing') && game.curBeat % 2 == 0) bfStar.dance();
+	var anim:String = bfStar.animation.curAnim.name;
+	if (anim.indexOf("sing") <= -1 && game.curBeat % 2 == 0) bfStar.dance();
 	
-	var anim2 = redStar.animation.curAnim.name;
-	if (!StringTools.contains(anim2, 'sing') && game.curBeat % 2 == 0) redStar.dance();
+	var anim2:String = redStar.animation.curAnim.name;
+	if (anim2.indexOf("sing") <= -1 && game.curBeat % 2 == 0) redStar.dance();
 }
 
 function opponentNoteHit(note)
