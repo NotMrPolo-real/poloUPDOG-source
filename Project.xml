@@ -40,7 +40,7 @@
 	<!-- Use project assets folder instead of the build one if on a debug build. -->
 	<define name="ASSET_REDIRECT" if="debug"/>
 
-	<!-- <define name="RELEASE_BUILD"/> -->
+	<define name="RELEASE_BUILD"/>
 
 
 	<set name="BUILD_DIR" value="export/debug" if="debug" />
