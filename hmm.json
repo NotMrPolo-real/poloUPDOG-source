@@ -13,17 +13,17 @@
         {
             "name": "flixel-addons",
             "type": "haxelib",
-            "version": "2.10.0"
+            "version": null
         },
         {
             "name": "flixel-tools",
             "type": "haxelib",
-            "version": "1.5.1"
+            "version": null
         },
         {
             "name": "flixel-ui",
             "type": "haxelib",
-            "version": "2.5.0"
+            "version": null
         },
         {
             "name": "lime",
