@@ -22,14 +22,6 @@ class Main extends Sprite
 		fps: 60
 	};
 
-	// You can pretty much ignore everything from here on - your code should go in your states.
-	public static var fpsVar:DebugDisplay;
-
-	static function __init__()
-	{
-		funkin.utils.MacroUtil.haxeVersionEnforcement();
-	}
-
 	public static function main():Void
 	{
 		Lib.current.addChild(new Main());
@@ -44,7 +36,7 @@ class Main extends Sprite
 			FNFGame
 			#else
 			FlxGame
-			#end(startMeta.width, startMeta.height, #if !debug Splash #else startMeta.initialState #end, startMeta.fps, startMeta.fps, startMeta.skipSplash,
+			#end(startMeta.width, startMeta.height, startMeta.initialState, startMeta.fps, startMeta.fps, startMeta.skipSplash,
 				startMeta.startFullScreen);
 
 		// FlxG.game._customSoundTray wants just the class, it calls new from
