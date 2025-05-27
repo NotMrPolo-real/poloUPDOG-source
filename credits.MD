@@ -1,7 +1,3 @@
-# VS IMPOSTOR: SUSSY WITCHERY: CREDITS
-Thank you for checking out VS IMPOSTOR: SUSSY WITCHERY!
-
-
 # VS IMPOSTOR: CREDITS
 Thank you for checking out VS IMPOSTOR!
 

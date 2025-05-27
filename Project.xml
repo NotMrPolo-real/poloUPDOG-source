@@ -21,7 +21,7 @@
 	<!-- ____________________________ Window Settings ___________________________ -->
 
 	<!--These window settings apply to all targets-->
-	<window width="1280" height="720" fps="60" background="#000000" hardware="true" vsync="false" />
+	<window width="1280" height="720" fps="" background="#000000" hardware="true" vsync="false" />
 
 	<!--HTML5-specific-->
 	<window if="html5" resizable="true" />
@@ -47,7 +47,7 @@
 	<set name="BUILD_DIR" value="export/release" unless="debug" />
 	<set name="BUILD_DIR" value="export/32bit" if="32bits" />
 
-	<classpath name="nothing" />
+	<classpath name="source" />
 	
 	<!-- PSYCH ENGINE CUSTOMIZATION -->
 	<define name="MODS_ALLOWED" if="desktop" />
@@ -60,10 +60,10 @@
 
 
 
-	<assets path="assets/fonts" embed="false" />
-	<assets path="assets/shared"        exclude="*.ogg" 		if="web" embed="false"/>
-	<assets path="assets/shared"        exclude="*.mp3" 		unless="web" embed="false"/>
-	<assets path="assets/videos"        library="videos"        if="VIDEOS_ALLOWED" embed="false"/>
+	<assets path="assets/fonts"/>
+	<assets path="assets/shared"        exclude="*.ogg" 		if="web"/>
+	<assets path="assets/shared"        exclude="*.mp3" 		unless="web"/>
+	<assets path="assets/videos"        library="videos"        if="VIDEOS_ALLOWED"/>
 
 	<library name="videos"        preload="true" if="VIDEOS_ALLOWED"/>
 	<library name="songs"         preload="true" />
@@ -95,13 +95,6 @@
 	<haxelib name="linc_luajit" if="LUA_ALLOWED"/>
 	<haxelib name="discord_rpc" if="DISCORD_ALLOWED"/>
 	<haxelib name="hxvlc" if="VIDEOS_ALLOWED"/>
-
-
-	<!-- ______________________________ macros _____________________________ -->
-
-
-	<haxeflag name="--macro" value="include('flixel.addons.effects')" />
-	<haxeflag name="-dce no" />
 
 	<!-- ______________________________ Haxedefines _____________________________ -->
 
